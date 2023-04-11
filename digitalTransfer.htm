@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>進制轉換</title>
+</head>
+
+<body>
+<form action="toTransfer.php" method="post" name="form1" id="form1">
+  <p>
+    <label for="textfield">輸入10進制數字:</label>
+    <input name="decimal" type="text" required id="decimal" size="10" maxlength="8">
+  </p>
+  <p>
+    <label for="select">欲轉換的進制:</label>
+    <select name="toDigital" id="toDigital">
+      <option value="2">2</option>
+      <option value="8">8</option>
+      <option value="16">16</option>
+    </select>
+  </p>
+  <p>
+    <input type="submit" name="submit" id="submit" value="轉換">
+  </p>
+</form>
+</body>
+</html>
